@@ -1,3 +1,13 @@
+/**
+ * Testing GeoGebra applets
+ * @author: [[User:Helder.wiki]]
+ * @tracking: [[Special:GlobalUsage/User:Helder.wiki/Tools/GeoGebraApplet.js]] ([[File:User:Helder.wiki/Tools/GeoGebraApplet.js]])
+ */
+/*jslint browser: true, white: true*/
+/*global jQuery, mediaWiki */
+( function ( $, mw /* , undefined */ ) {
+'use strict';
+
 var appletCode = '<applet name="ggbApplet" code="geogebra.GeoGebraApplet" archive="geogebra.jar"'+
 	'codebase="http://www.geogebra.org/webstart/3.2/unsigned/"'+
 	'width="892" height="519"mayscript="true">'+
@@ -14,3 +24,5 @@ if ('Blankpage' === mw.config.get('wgCanonicalSpecialPageName')){
 		$('#bodyContent').append(appletCode);
 	});
 }
+
+}( jQuery, mediaWiki ) );
