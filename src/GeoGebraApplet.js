@@ -1,6 +1,7 @@
 /**
  * Testing GeoGebra applets
- * @author: [[User:Helder.wiki]]
+ * @author: Helder (https://github.com/he7d3r)
+ * @license: CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>
  * @tracking: [[Special:GlobalUsage/User:Helder.wiki/Tools/GeoGebraApplet.js]] ([[File:User:Helder.wiki/Tools/GeoGebraApplet.js]])
  */
 /*jslint browser: true, white: true*/
